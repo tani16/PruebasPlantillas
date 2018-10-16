@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LectorPasos {
+public class TESTLectorPasos {
 
 	public Map<String, String> leerPaso(ArrayList<String> pasos) {
 		// TODO Auto-generated method stub

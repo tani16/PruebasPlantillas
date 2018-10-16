@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class mainApp {
+public class TESTmainApp {
 	
 	public static String programa = "COF20EPCL";
 	public static Map<String, String> datos = new HashMap<String, String>();
@@ -16,8 +16,8 @@ public class mainApp {
 	static ArrayList<String> fichero = new ArrayList<String>();
 	static ArrayList<String> pasos = new ArrayList<String>();
 	static int lineNumber = 0;
-	static LectorPasos lectorPasos = new LectorPasos();
-	static WriterPasos writerPasos = new WriterPasos();
+	static TESTLectorPasos lectorPasos = new TESTLectorPasos();
+	static TESTWriterPasos writerPasos = new TESTWriterPasos();
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
